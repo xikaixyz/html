@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - The Last Experience</title>
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/fontawesome.min.css" rel="stylesheet">
+  <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet">
+  <script src="Hover.js" type="text/javascript"></script>
+  <link rel="stylesheet" type="text/css" href="index.css">
+  <link rel="stylesheet" type="text/css" href="Main_body.css">
+  
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<!--<canvas></canvas>-->
+<script src="蜘蛛网.js" type="text/javascript"></script>
+<script src="樱花.js" type="text/javascript"></script>
+<script src="clk.js" type="text/javascript"></script>
+
+
+
+<header class="post-bg" id="page-header" style="background-image: url('https://blog.mufanc.xyz/assets/images/top_img.webp')"><nav id="nav" class="show" translate="no"><span id="blog_name">
+  <a id="site-name" href="/">菜菜是裁缝小匠</a>
+
+</span><div id="menus"><div id="search-button"><a class="site-page social-icon search"><i class="fas fa-search fa-fw"></i><span> 搜索</span></a></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 主页</span></a></div><div class="menus_item"><a class="site-page" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></div><div class="menus_item"><a class="site-page" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></div><div class="menus_item"><a class="site-page" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa-solid fa-book-bookmark"></i><span> 链接</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友链</span></a></li><li><a class="site-page child" href="/fcircle/"><i class="fa-fw fas fa-user-group"></i><span> 朋友圈</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav>
+
+  <div id="post-info"><h1 class="post-title">HNU学术不端团员</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2020-11-09T17:28:53.000Z" title="发表于 2020-11-10 01:28:53">2023-6-23</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-09-21T14:33:21.638Z" title="更新于 2022-09-21 22:33:21">2023-06-24</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="">「主页面」</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">10.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>0分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="Qlivoid 与网课挂机"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv">0</span></span><span class="post-meta-separator">|</span><span class="post-meta-commentcount"><i class="far fa-comments fa-fw post-meta-icon"></i><span class="post-meta-label">评论数:</span><a href="">0<span id="twikoo-count"></span></a></span></div></div></div></header>
+<!--<script  src="./script.js"></script>-->
+
+<div style="display: flex;">
+<div class="main_content" style="float: left;flex: 2;" >
+  &#x1F32F;
+  <h1 align="center">.      	.		治愈系风景</h1>
+  <h1 style="font-style: italic;font-family: 隶书;font-size: 30px"> .       小小期待</h1>
+  <p>其实也没想那么多，走者走着就遇到了你<br></p>
+  <h1 style="font-style: italic;font-family: 隶书;font-size: 40px"> .       文案</h1>
+  <p>你是我满朝的港湾，我是那只漂不远的小船。待到一明一暗的航标灯给我信息，就有温柔漂泊在你身边。<br></p>
+  <p>
+  我们通常在定义Service接口的同时，需要同时定义Service实现类。而且，为了遵循面向接口编程原则，我们需要在Service实现类中使用接口定义的方法，而不是直接使用接口。因此，在MyBatis-plus中，我们通常会创建一个继承了ServiceImpl的Service实现类，并且该类需要实现Service接口，并注入对应的Mapper进行数据操作。
+
+关于泛型，IService接口是一个有泛型的接口，要求继承的子类也需要使用相同的泛型类型，所以在定义Service实现类时，我们需要同时指定泛型实现类。
+
+因此，当我们定义一个继承ServiceImpl的Service实现类时，需要在该类上使用泛型来指定Mapper接口的类型，告诉MyBatis-plus将该Mapper接口的实现类注入到Service实现类中。同时，这个Service实现类需要实现对应的Service接口，并且指定泛型类型，例如：
+
+```java
+@Service
+public class PioServiceImpl extends ServiceImpl<BaseMapper<PoiVo>, PoiVo> implements IPioService {
+    //...
+}
+```
+
+在上述代码中，我们定义了一个`PioServiceImpl`类，继承了MyBatis-plus提供的ServiceImpl类，实现了`IPioService`接口，并且使用泛型`<BaseMapper<PoiVo>, PoiVo>`来指定了Mapper接口类型和实体对象类型。使用Mybatis-plus的`ServiceImpl`可以让我们在省略了DAO层的情况下直接操作数据库，方便快捷，事实上，我们可以使用`IServiceImpl` 这个接口来定义我们自己的Service实现类，该接口也提供了和`ServiceImpl`类似的功能和函数。
+  </p>
+</div>
+<div id="asize_content" style="float: right;flex: 1">
+<div class="aside-content" id="aside-content" style="margin: 5% 0 0 40%;width: 40%"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/assets/images/avatar.jpeg" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"></div><div class="author-info__name">Mufanc</div><div class="author-info__description"></div></div><div class="card-info-data is-center"><div class="card-info-data-item"><a href="/archives/"><div class="headline">文章</div><div class="length-num">32</div></a></div><div class="card-info-data-item"><a href="/tags/"><div class="headline">标签</div><div class="length-num">0</div></a></div><div class="card-info-data-item"><a href="/categories/"><div class="headline">分类</div><div class="length-num">10</div></a></div></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn card-announcement-animation"></i>
+</div>
+</div>
+</body>
+</html>
+
